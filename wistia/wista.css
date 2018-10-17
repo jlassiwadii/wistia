@@ -1,0 +1,401 @@
+body{
+    margin: 0px;
+    padding: 0px;
+   
+}
+header{
+display: flex;
+flex-direction: row;
+max-height: max-content;
+max-width: max-content;;
+}
+.wistia-logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 1cm;
+max-height: 2cm;
+max-height: max-content;
+
+}
+.logo{
+    width:280px;
+    height: 100px;
+ padding-right:  30px;
+}
+.home{
+ width: 50vw;   
+   
+}
+.home-1{ 
+    border: 1px solid #f9f9f9;
+    padding: 20px 300px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-2{
+    border: 1px solid #f9f9f9;
+    padding: 20px 300px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5ea;
+}
+.home-12{
+    text-decoration:none;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(83, 77, 77);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration:none;
+    
+}
+.home-12:hover{
+    color: black;
+}
+
+.authentication{
+    border: 1px solid #f9f9f9;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+    width: 20vw;
+    
+}
+.login{ 
+    text-decoration:none;
+    color: #585857;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.signup{
+    text-decoration:none;
+    color:rgb(0, 174, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+
+
+.watch-video{
+    background-color:#ca95a4;
+    display: flex;
+    flex-direction: row;
+
+}
+h1{
+    color:white;
+}
+.video-software{
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 200px 50px;
+     
+}
+.video{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363945;
+    font-size: 2.6em;
+    font-weight: 400;
+}
+
+#video-soft{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.video-button{
+    color: #363945;
+    width: 220px;
+    height: 75px;
+    background: #f5f5ea;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Walsheim", sans-serif;
+}
+.video-button:hover{
+    border-bottom:7px solid #c9c9bf;
+
+}
+.woman-video{
+width:50%;
+display: flex;
+padding-top: 25px;
+
+}
+
+
+.section-2{
+display: flex;
+flex-direction: row;
+height: 400px;
+}
+.hosting-container{
+    width:34%;
+    background-color: #FED24A;
+    padding: 40px 40px 50px 50px;
+}
+h1{
+    font-family: "Walsheim", sans-serif;
+    font-weight: bold;
+}
+.hosting{
+    color: #363945;
+    font-size: 20px;
+    
+}
+.learn-more{
+    color: #363945;
+    font-size: 20px;
+}
+.start-for-free-hosting{
+border:1px solid white;
+border-radius: 12px;
+color: #2A2D35;
+font-weight: bold;
+width: 180px;
+height: 60px;
+background: #FED24A;
+}
+.start-for-free-hosting:hover{
+    background-color: aliceblue;
+}
+
+.soabox-container{
+    background-color: #51C29F;
+    width:33%;
+    padding:  50px 40px 50px 50px;px;
+}
+
+ .soabox{
+    color: #363945;
+    font-size: 20px;
+}
+
+.start-for-free-soabox
+{
+    border:1px solid white;
+    border-radius: 12px;
+    color: #2A2D35;
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+    background-color: #51C29F;
+    }
+    .start-for-free-soabox:hover{
+        background-color: aliceblue;
+    }
+    
+.skills-container{
+    width:33%;
+    background-color: #3EA9F5;
+    padding: 50px 40px 50px 50px;
+}
+.skills{
+    color: #363945;
+    font-size: 20px;
+}
+.start-for-free-skills{
+    margin-top: 20px;
+    border:1px solid white;
+    border-radius: 12px;
+    color: #2A2D35;
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+    background-color: #3EA9F5;
+    }
+
+.start-for-free-skills:hover{
+        background-color: aliceblue;
+    }
+
+.section-3{
+    display: flex;
+    flex-direction: row; 
+    background-color: white;
+    padding: 40px;
+    }
+.business{
+    max-width: 160px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #9CA8B7;
+}
+.picture-section-3{
+    width: 160px;
+    height: 150px;
+    padding: 0 30px;
+}
+
+    .section-4{
+        display: flex;
+        flex-direction: row; 
+        background-color: white;
+         min-width: 33%;
+        }
+
+       .h1-section4{
+        color: #363945;
+        font-family: "Walsheim", sans-serif;
+        font-size: 1.17em;
+        font-weight: bold;
+       }
+       .picture-section4{
+           display: flex;
+           flex-direction: column;
+           margin: 50px;
+       }
+       .picture{
+           width: 300 px;
+           height: 250px;
+       }
+       
+       .picture:hover {
+           -webkit-filter: sepia(100%); 
+           filter: sepia(100%);
+        }
+
+.p-section4{
+    font-family: "Walsheim", sans-serif;
+    color: #363945;
+    font-size: 16px;
+    display: block;
+    font-weight: 550;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.link-learn-more{
+
+    font-family: "Walsheim", sans-serif;
+    font-size: 16px;
+    color: #217AD5;
+    font-weight: 600;
+
+}
+
+
+
+.information-wista{
+    display:flex;
+   flex-direction: column;
+}
+.terms-color{
+    background: #e8e7e6; 
+}
+.terms{
+    color:#4d4d33 ;
+    font-family: serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.more-information{
+    background: #2a2d35;
+    padding: 50px 80px 50px 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    min-width: 15%;
+}
+
+.h1-footer{
+    font-family: "Walsheim", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link-wistia{
+    line-height: 30px;
+    text-decoration: none;
+    color: #b2b9c1;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.link-wistia:hover{
+    text-decoration:underline #b2b9c1;
+}
+.display-link-footer{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.link-social-media{
+    text-decoration: none;
+    color: #3ea9f5;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.link-social-med:hover{
+    text-decoration:underline #3ea9f5;
+}
+.pargraph-1-footer{
+    font-size: 1.6em;
+    line-height: 1.3em;
+    font-weight: 500;
+    color: white;
+    font-family: "Walsheim", sans-serif;
+    display:inline-block;
+   max-width:100%; ; 
+}
+.pargraph-2-footer{
+    font-family: "Walsheim", sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+
+
+}
+.more-information-wistia-footer{
+max-width: 20%;
+display: flex;
+flex-direction: column;
+
+
+}
+
+hr{
+   width: 100%;
+   background-color:#b2b9c1; 
+   height: 1px; 
+   border: 0;
+}
+.terms-footer{
+    background: #2a2d35;
+    padding: 0px 80px 50px 60px;
+    display: flex;
+    flex-flow: column;
+    
+}
+.privacy-and-terms{
+    padding-top: 30px;
+    text-align: center;
+    color: #b2b9c1;
+    font-family: "Walsheim", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    font-weight: 600;
+}
+.link-privacy-and-terms{
+    text-decoration: none;
+    font-size: 16px;
+    color: #9CA8B7;
+    font-family: "Walsheim", sans-serif;
+    font-weight: 600;
+}
+.link-privacy-and-terms:hover{
+    text-decoration: underline;
+
+}
